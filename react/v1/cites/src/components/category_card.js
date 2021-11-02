@@ -8,14 +8,13 @@ class CategoryCard extends React.Component {
         return (
            <div>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={this.props.img_path} />
                     <Card.Body>
                         <Card.Title>{this.props.card_name}</Card.Title>
                         <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
+                        {this.props.card_text}
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
+                        <Button variant="primary">{this.props.card_button_submit}</Button>
                     </Card.Body>
                 </Card>
            </div>

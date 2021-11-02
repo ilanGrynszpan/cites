@@ -5,3 +5,6 @@ react/v1/cites/node_modules
 react/v1/cites/node_modules
 react/v1/cites/yarn.lock
 react/v1/cites/public/favicon.ico
+
+react/v1/cites/public/*.png
+react/v1/cites/public/occupations
