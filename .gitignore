@@ -8,3 +8,7 @@ react/v1/cites/public/favicon.ico
 
 react/v1/cites/public/*.png
 react/v1/cites/public/occupations
+
+react/v1/cites/src/logo.svg
+react/v1/cites/src/reportWebVitals.js
+react/v1/cites/src/setupTests.js
